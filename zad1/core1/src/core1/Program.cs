@@ -15,7 +15,6 @@ namespace core1
                 System.IO.DirectoryInfo dir = new System.IO.DirectoryInfo(path);
                 if (dir.Exists)
                 {
-                    Console.WriteLine(dir.FullName);
                     Console.WriteLine("Katalog istnieje \n");
                     Console.WriteLine("Sciezka do pliku \t \t \t data utworzenia \n");
                     System.IO.FileInfo[] file = dir.GetFiles();
