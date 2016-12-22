@@ -13,8 +13,6 @@ namespace core1
             {
                 Console.Write("Podaj sciezke katalogu: ");
                 string path = Console.ReadLine();
-                //  Console.WriteLine(path);
-                // Console.ReadLine();
                 System.IO.DirectoryInfo dir = new System.IO.DirectoryInfo(path);
                 if (dir.Exists)
                 {
